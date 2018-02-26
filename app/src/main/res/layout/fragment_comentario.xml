@@ -1,0 +1,75 @@
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.alertatsunami.ComentarioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/LBLTITULO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Panel de Comentarios" />
+
+        <TextView
+            android:id="@+id/LBLSISMO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/LBLTITULO"
+            android:layout_marginTop="11dp"
+            android:text="Sismo:" />
+
+        <TextView
+            android:id="@+id/LBLUBICASION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/LBLSISMO"
+            android:layout_marginTop="18dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/LBLCOMENTARIO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TXTCOMENTARIO"
+            android:layout_alignStart="@+id/LBLTITULO"
+            android:layout_marginStart="19dp"
+            android:text="Comentar:" />
+
+        <EditText
+            android:id="@+id/TXTCOMENTARIO"
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/TXTCOMENTARIO"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/BTNCOMENTAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="COMENTAR" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

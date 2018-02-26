@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0277BD</color>
+    <color name="colorAccent">#765761</color>
+    <color name="colornegro">#000000</color>
+    <color name="color_plomo">#263238</color>
+    <item name="purpledark" type="color">#6A1B9A</item>
+</resources>

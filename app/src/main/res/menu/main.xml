@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Linterna"
+        android:orderInCategory="100"
+        android:title="Linterna" />
+    <item
+        android:id="@+id/Ayuda"
+        android:orderInCategory="100"
+        android:title="Ayuda" />
+    <item
+        android:id="@+id/Informacion"
+        android:orderInCategory="100"
+        android:title="Informacion"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Ajustes"
+        android:orderInCategory="100"
+        android:title="Ajustes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/CERRARSESION"
+        android:orderInCategory="100"
+        android:title="CERRAR SESION"
+        app:showAsAction="never" />
+</menu>

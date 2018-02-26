@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colornegro"
+    tools:context="com.example.toshiba.alertatsunami.AlertaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="550px"
+        android:layout_height="70px"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="HERRAMIENTAS DE EMERGENCIA"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnoff"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="80dp"
+        android:onClick="alarmaOff"
+        android:src="@drawable/apagado"
+        android:text="APAGAR ALARMA"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/boton"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:layout_marginStart="5px"
+        android:layout_marginTop="0px"
+        android:src="@drawable/linterna"
+        app:borderWidth="0dp"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</FrameLayout>
